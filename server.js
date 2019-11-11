@@ -7,7 +7,7 @@ server.use(helmet());
 server.use(express.json());
 
 server.get('/', (req, res) => {
-    res.send('server running')
+  res.send('server running')
 })
 
 
